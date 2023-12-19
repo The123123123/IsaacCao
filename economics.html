@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #181818;
+        }
+
+        header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .home {
+      width: 3%;
+      height: auto;
+      float: left;
+    }
+
+        main {
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+    
+
+
+
+        .toggleCheckbox {
+            display: none;
+        }
+
+        .toggleParagraph {
+            display: none;
+        }
+
+        .toggleLabel:hover {
+            cursor: pointer;
+        }
+
+        #toggleCheckbox1:checked ~ #myParagraph1 {
+            display: block;
+        }
+
+        #toggleCheckbox2:checked ~ #myParagraph2 {
+            display: block;
+        }
+
+        #toggleCheckbox3:checked ~ #myParagraph3 {
+            display: block;
+        }
+        
+    </style>
+    <title>Economy</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+          <a href="index.html">
+          <img class="home" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Home_icon_blue-1.png" alt="Sheep"></a>
+          </a>
+          Economy
+        </h1>
+      </header>
+
+    <main>
+        <input type="checkbox" id="toggleCheckbox1" class="toggleCheckbox">
+        <label for="toggleCheckbox1" class="toggleLabel" style="font-size: 40px;">
+            Introduction
+        </label>
+        <br><p id="myParagraph1" class="toggleParagraph">
+            New Zealand's economy is very diverse, although it is one of the smaller economies compared to the rest of the world. However, the economy is very free and is rated number 5 in the world by heritage.org. New Zealand's economy is nowadays composed mostly of agriculture. It is one of the biggest exporters of dairy products. But it also produces things such as beef, lamb, potatoes, onions, and much more.
+        </p></br>
+        
+        <input type="checkbox" id="toggleCheckbox2" class="toggleCheckbox">
+        <label for="toggleCheckbox2" class="toggleLabel" style="font-size: 40px;">Sheep</label>
+        <br><p id="myParagraph2" class="toggleParagraph">New Zealand is the 2nd largest exporter of lamb in the world right behind australia. And is one of the largest wool exporters. Although nowadays the emphasis on sheep farming is not nearly as high. In the 1980s there were about 70 million sheep. Nowadays there are around 26 million sheep in New Zealand. Although the amount of lamb and wool have remained similar.
+        </p></br>
+
+        <input type="checkbox" id="toggleCheckbox3" class="toggleCheckbox">
+        <label for="toggleCheckbox3" class="toggleLabel" style="font-size: 40px;">Tourism</label>
+        <br><p id="myParagraph3" class="toggleParagraph">Tourism is another massive part of the economy as it contributes to about 10% of the economy. Because of New Zealand's nature and culture it has interested many people to visit it. In 2008 it was found that about ⅓ of the tourists that were in New Zealand were from new zealand although this helps towns during slow time in tourism. 
+
+
+        </p></br>
+    </main>
+
+
+</body>
+</html>
+

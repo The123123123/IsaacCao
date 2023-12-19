@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #181818;
+        }
+
+        header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .home {
+      width: 3%;
+      height: auto;
+      float: left;
+    }
+
+        main {
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+    
+
+
+
+        .toggleCheckbox {
+            display: none;
+        }
+
+        .toggleParagraph {
+            display: none;
+        }
+
+        .toggleLabel:hover {
+            cursor: pointer;
+        }
+
+        #toggleCheckbox1:checked ~ #myParagraph1 {
+            display: block;
+        }
+
+        #toggleCheckbox2:checked ~ #myParagraph2 {
+            display: block;
+        }
+
+       
+        
+    </style>
+    <title>Political Landscape</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+          <a href="index.html">
+          <img class="home" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Home_icon_blue-1.png" alt="Sheep"></a>
+          </a>
+          Political Landscape
+        </h1>
+      </header>
+
+    <main>
+        <input type="checkbox" id="toggleCheckbox1" class="toggleCheckbox">
+        <label for="toggleCheckbox1" class="toggleLabel" style="font-size: 40px;">
+            Goverment System
+        </label>
+        <br><p id="myParagraph1" class="toggleParagraph">
+            
+New Zealand has a parliamentary style government based heavily on the United Kingdom's government. New Zealand was owned by the United Kingdom until 1947 when it gained independence.
+
+        </p></br>
+        
+        <input type="checkbox" id="toggleCheckbox2" class="toggleCheckbox">
+        <label for="toggleCheckbox2" class="toggleLabel" style="font-size: 40px;">Historical Conflicts</label>
+        <br><p id="myParagraph2" class="toggleParagraph">New Zealand didn't really partake in any major wars. Although it did have some smaller wars and also during the colonization of it thousands of Maori People were killed. The Maori people were dehumanized and slaughtered by colonists. About 120,000 Maori people died in that time frame from illness or war.
+
+
+        
+
+</body>
+</html>
+

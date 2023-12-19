@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #181818;
+        }
+
+        header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .home {
+      width: 3%;
+      height: auto;
+      float: left;
+    }
+
+        main {
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+    
+
+
+
+        .toggleCheckbox {
+            display: none;
+        }
+
+        .toggleParagraph {
+            display: none;
+        }
+
+        .toggleLabel:hover {
+            cursor: pointer;
+        }
+
+        #toggleCheckbox1:checked ~ #myParagraph1 {
+            display: block;
+        }
+
+        #toggleCheckbox2:checked ~ #myParagraph2 {
+            display: block;
+        }
+
+        #toggleCheckbox3:checked ~ #myParagraph3 {
+            display: block;
+        }
+
+        #toggleCheckbox4:checked ~ #myParagraph4 {
+            display: block;
+        }
+
+        #toggleCheckbox5:checked ~ #myParagraph5 {
+            display: block;
+        }
+        
+    </style>
+    <title>Social Landscape</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+          <a href="index.html">
+          <img class="home" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Home_icon_blue-1.png" alt="Sheep"></a>
+          </a>
+          Social Landscape
+        </h1>
+      </header>
+
+    <main>
+        <input type="checkbox" id="toggleCheckbox1" class="toggleCheckbox">
+        <label for="toggleCheckbox1" class="toggleLabel" style="font-size: 40px;">
+            Introduction
+        </label>
+        <br><p id="myParagraph1" class="toggleParagraph">
+            New Zealand is home to a diverse group of people and lots of culture. On this page we will be discussing different cultures such as the Maori people. We will also go into the population of New Zealand and the push and pull factors of the country.
+        </p></br>
+        
+        <input type="checkbox" id="toggleCheckbox2" class="toggleCheckbox">
+        <label for="toggleCheckbox2" class="toggleLabel" style="font-size: 40px;">Culture</label>
+        <br><p id="myParagraph2" class="toggleParagraph">New Zealand has multiple defining characteristics that make it unique. The indigenous people there are a good example of a culture in New Zealand. A notable staple is their art, which is renowned worldwide. New Zealand has a lot of activities involving the mountains they have there such as hiking and mountain biking.
+
+        </p></br>
+
+        <input type="checkbox" id="toggleCheckbox3" class="toggleCheckbox">
+        <label for="toggleCheckbox3" class="toggleLabel" style="font-size: 40px;">Population</label>
+        <br><p id="myParagraph3" class="toggleParagraph">The population of New Zealand is very small compared to most countries, which can be a problem as they don't have much of an impact on the world. New Zealand has entered the DTM 4th Stage as the death and birth rate of the country is low.
+
+        </p></br>
+
+        <input type="checkbox" id="toggleCheckbox4" class="toggleCheckbox">
+        <label for="toggleCheckbox4" class="toggleLabel" style="font-size: 40px;">Push And Pull Factors</label>
+        <br><p id="myParagraph4" class="toggleParagraph">One of the key push factors is the high price of housing. Although on the other hand the average wage in New Zealand is quite high compared to other countries. Along with the outdoors and the vibrant culture, these are some reasons someone might move to New Zealand.
+
+
+        </p></br>
+
+
+        <input type="checkbox" id="toggleCheckbox5" class="toggleCheckbox">
+        <label for="toggleCheckbox5" class="toggleLabel" style="font-size: 40px;">Languages And Religons</label>
+        <br><p id="myParagraph5" class="toggleParagraph">In New Zealand, the primary language spoken is English. There are 3 official languages which are English, Maori and New Zealand Sign Language. Maori has been dying out as a language but efforts have been made to bring this language back to its former glory. In New Zealand almost half of people identified as having no religion. After that Christianity is the biggest religion there. Maori religious beliefs and philosophies only came in at about 1.3% which is important as it is one of the only religions native to the area.
+
+
+
+        </p></br>
+    </main>
+
+
+</body>
+</html>
+
